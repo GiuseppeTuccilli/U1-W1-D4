@@ -136,9 +136,9 @@
         </table>
         <p>
           un test di validazione potrà essere fatto il
-          <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato
-          il tutto, avremo raggiunto il nostro obbiettivo ed essere stati dei
-          veri developers come loro:
+          <a id="tool" href="#">tool online</a> dedicato allo scopo. Una volta
+          ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ed essere
+          stati dei veri developers come loro:
         </p>
         <iframe
           width="560"
@@ -150,26 +150,33 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <h1>Novità</h1>
-        <p>
-          Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
-          nostra newsletter
-        </p>
-        <form>
-          <input type="email" placeholder="inserisci l'email" />
-          <button>Iscriviti</button>
-        </form>
+        <div class="box">
+          <h1>Novità</h1>
+          <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            nostra newsletter
+          </p>
+          <form>
+            <input id="mail" type="email" placeholder="inserisci l'email" />
+            <button>Iscriviti</button>
+          </form>
+        </div>
         <h1>Articoli correlati</h1>
-        <p><a href="#">Validare il codice HTML</a></p>
-        <p>Ctegoria: develop</p>
-        <p>Data: 18-9-2020</p>
-        <p><a href="#">Correggere la sintassi</a></p>
-        <p>Ctegoria: develop</p>
-        <p>Data: 16-9-2020</p>
-        <p><a href="#">Meno Kb nella pagina</a></p>
-        <p>Ctegoria: ottimizzazione</p>
-        <p>Data: 30-9-2020</p>
-        <hr />
+        <div class="box">
+          <p><a href="#">Validare il codice HTML</a></p>
+          <p>Ctegoria: develop</p>
+          <p class="data">Data: 18-9-2020</p>
+        </div>
+        <div class="box">
+          <p><a href="#">Correggere la sintassi</a></p>
+          <p>Ctegoria: develop</p>
+          <p class="data">Data: 16-9-2020</p>
+        </div>
+        <div class="box">
+          <p><a href="#">Meno Kb nella pagina</a></p>
+          <p>Ctegoria: ottimizzazione</p>
+          <p class="data">Data: 30-9-2020</p>
+        </div>
       </main>
       <footer>
         <p>Blog Epicode &copy 2023</p>
@@ -177,7 +184,7 @@
           <i
             >Testata online di Mario Rossi, registrata con prot. n.213/2018 -
             via Luigi Einaudi 2 - Minalo. P.IVA 00112233
-            <a href="#">infro@epicode.school</a></i
+            <a href="#" id="info">infro@epicode.school</a></i
           >
         </p>
       </footer>
