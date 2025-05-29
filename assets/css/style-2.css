@@ -1,0 +1,136 @@
+body{
+font-family: "Lato", sans-serif;
+
+}
+#page{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/sfondo.png);
+}
+
+header, main, footer{
+    margin: 1em;
+box-shadow: 8px 5px 15px 5px #000000;
+}
+
+header {
+    text-align: center;
+    background: #006C87;
+background: linear-gradient(0deg,rgba(0, 108, 135, 1) 0%, rgba(0, 160, 198, 1) 100%);
+padding: 1em;
+color: white;
+
+}
+
+header a{
+    font-family: "Lato", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+header h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+header li{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+header i{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+iframe{
+    width: 100%;
+}
+
+img{
+    width: 70%;
+    
+}
+
+main{
+    background-color: white;
+    padding: 1em;
+}
+
+#under-title{
+    color:#a1a0a2;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#pencil, #clock{
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+
+#parti-comuni{
+    font-weight: bold;
+    color:#aa2072
+
+}
+
+main ul{
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tasto{
+    background-color: #9fa3a3
+;
+
+border-radius: 5px;
+}
+#selcss{
+    font-weight: bold;
+    color:#aa2072
+}
+
+main ol{
+    padding-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    list-style-type: decimal;
+}
+
+table caption{
+    font-style: italic;
+    font-weight: bold;
+}
+table{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    background-color: #5b83d1;
+    height: 3em;
+    color: white;
+       box-sizing: border-box;
+    padding: 1em;
+}
+
+td{
+    padding:1em;
+    text-align: center;
+}
+
+.grey{
+    background-color: class="grey";
+}
